@@ -1,0 +1,106 @@
+        .titulos{
+            text-align: center;
+            background-color: rgb(255, 27, 27);
+            font-size: 30pt;
+        }
+
+        .subtitulos{
+            font-size: 20pt;
+            color: crimson;
+            font-family:'Gill Sans';
+        }
+
+        body{
+            text-align: justify;
+        }
+        .entradilla{
+            text-align: center;
+            font-size: 17pt;
+        }
+        .imagenes{
+            text-align: center;
+        }
+
+        .tabulado{
+            text-indent:3%;
+        }
+
+        .titulos2{
+            text-align: center;
+            font-size: 30pt;
+            font-family:'Lucida Grande';
+
+        }
+        .subtitulos2{
+            font-size: 16pt;
+            text-indent:2%;
+        }
+
+        .abecedario1{
+            font-size: 2000%;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(255, 255, 255);
+        }
+        .abecedario2{
+            font-size: 2000%;
+            text-align: center;
+            font-family:Fuente5;
+            color: rgb(255, 0, 0);
+            word-spacing: 30pt;
+        }
+        .abecedario3{
+            font-size: 2000%;
+            text-align: center;
+            font-family: Fuente2;
+            color: rgb(255, 196, 0);
+            word-spacing: 30pt;
+        }
+        .abecedario4{
+            font-size: 2000%;
+            text-align: center;
+            font-family: Fuente1;
+            color: rgb(115, 255, 0);
+            word-spacing: 30pt;
+        }
+         .abecedario5{
+            font-size: 2000%;
+            text-align: center;
+            font-family: Fuente3;
+            color: rgb(0, 238, 255);
+            word-spacing: 30pt;
+        }
+         .abecedario6{
+            font-size: 2000%;
+            text-align: center;
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(111, 0, 255);
+            word-spacing: 30pt;
+        }
+         .abecedario7{
+            font-size: 2000%;
+            text-align: center;
+            font-family:Fuente4;
+            color: rgb(255, 0, 234);
+            word-spacing: 30pt;
+        }
+        @font-face{
+            font-family: "Fuente1";
+            src: url(../Ejercicio5/letras/FortalesiaScript_PERSONAL_USE_ONLY.otf);
+        }
+         @font-face{
+            font-family: "Fuente2";
+            src: url(../Ejercicio5/letras/Starborn.otf);
+        }
+        @font-face{
+            font-family: "Fuente3";
+            src: url(../Ejercicio5/letras/Spicy\ Sale.ttf);
+        }
+        @font-face{
+            font-family: "Fuente4";
+            src: url(../Ejercicio5/letras/ClassicStroke-Texture.ttf);
+        }
+        @font-face{
+            font-family: "Fuente5";
+            src: url(../Ejercicio5/letras/SuperMario256.ttf);
+        }

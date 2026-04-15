@@ -1,0 +1,318 @@
+body{
+    background-color: #000000;
+}
+
+#Envoltorio{
+	width: 85%;
+	margin: 0 auto;
+	min-width: 650px;
+}
+#Envoltorio #Cabecera header{
+    margin-bottom: 0%;
+    background-color: #050710;
+}
+
+#Envoltorio #Cabecera header img{
+    width: 100%;
+    height: 100%;
+}
+
+#Envoltorio #Cabecera nav{
+    display: flex;
+	justify-content: space-between;
+    padding: 8px 9% 8px 9%;
+    background-color: #050710;
+}
+#Envoltorio #Cabecera nav a{
+    color: #E5E7EB;
+    font-size: 18pt;
+}
+#Envoltorio #Cabecera nav p{
+    color: #1908b5;
+    margin: 0%;
+    font-size: 18pt;
+}
+nav a{
+    text-decoration: none;
+}
+#Portada {
+    padding: 20px 0 20px 30%;
+    background-color: #070B17;
+}
+#Portada img{
+    width: 60%;
+    max-height: 650px;
+}
+
+#Envoltorio #ContenidoNoticias nav{
+    flex-basis: 20%;    
+    box-sizing: border-box;
+	padding-left: 90px;
+    padding-top: 5%;
+    color: #E5E7EB;
+    list-style: none;
+    background-color: #0c1222;
+}
+#Envoltorio #ContenidoNoticias nav li{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15pt;
+}
+
+#Envoltorio #ContenidoNoticias main{
+    box-sizing: border-box;
+	flex: 1 1 60%; 
+	padding: 20px 3%;
+    background-color: #070B17;
+}
+
+#Envoltorio #ContenidoNoticias main h1{
+    text-align: center;
+    font-size: 25pt;
+    color: #5c08b5;
+}
+#Envoltorio #ContenidoNoticias main h2{
+    text-align: center;
+    font-size: 18pt;
+    color: #8b63e7;
+}
+#Envoltorio #ContenidoNoticias main p{
+    text-align: justify;
+    font-size: 12pt;
+    color: #E5E7EB;
+}
+#Envoltorio #ContenidoNoticias main img{
+   margin-left: 5%;
+    width: 90%;
+}
+#Envoltorio #ContenidoNoticias{
+	display: flex;
+}
+#Envoltorio #ContenidoNoticias aside{
+    box-sizing: border-box;
+	flex: 1 1 20%;
+    color: white;
+    background-color: #0C1224;
+    text-align: center;
+}
+
+#Envoltorio #ContenidoNoticias aside .anuncio1 img{
+    width: 60%;
+    margin-top: 10%;
+}
+#Envoltorio #ContenidoNoticias aside .anuncio1 p{
+    margin-bottom: 10%;
+}
+/*----------------------------------------------------------------------------------------*/
+#Envoltorio #ContenidoCarrusel{
+	display: flex;
+}
+#Envoltorio #ContenidoCarrusel main{
+    box-sizing: border-box;
+	flex: 1 1 80%; 
+	padding: 0 0 0 3%;
+    background-color: #070B17;
+}
+#Goty{
+    display: flex;
+}
+#Goty main{
+    flex: 1 1 10%;
+}
+#Goty article{
+    flex: 1 1 90%;
+}
+#CabeceraCarrusel header h1{
+    text-align: center;
+    font-size: 25pt;
+    color: #5c08b5;
+}
+#Goty main h2{
+    font-size: 18pt;
+    color: #8b63e7;
+}
+#Goty main p{
+    font-size: 12pt;
+    color: #E5E7EB;
+}
+
+#Envoltorio #ContenidoCarrusel aside{
+    box-sizing: border-box;
+	flex: 1 1 20%;
+    color: white;
+    background-color: #0C1224;
+    text-align: center;
+}
+
+#Envoltorio #ContenidoCarrusel aside .anuncio1 img{
+    width: 60%;
+    margin-top: 10%;
+}
+#Envoltorio #ContenidoCarrusel aside .anuncio1 p{
+    margin-bottom: 10%;
+}
+#Carrusel{
+    display: flex;
+    padding-top: 25%;
+    align-items: center;
+}
+#Carrusel #nav1{
+    flex: 1 1 10%;
+    box-sizing: border-box;
+}
+#Carrusel  a{
+    font-size: 20pt;
+    color: #845edb;
+    text-decoration: none;
+}
+#Carrusel section{
+    flex: 1 1 80%;
+    box-sizing: border-box;
+}
+#Carrusel section img{
+    width: 100%;
+    max-height: 250px;
+    min-height: 250px;
+}
+#Carrusel #nav2{
+    flex: 1 1 10%;
+    box-sizing: border-box;
+}
+#Goty article nav{
+    display: flex;
+    padding-left: 5%;
+
+}
+#Goty article nav p{
+    margin-top: 0%;
+    color: #8b63e7;
+}
+
+
+
+
+
+
+/*---------------------------------------------------*/
+#Envoltorio #Contenidojuegos{
+    display: flex;
+}
+#Envoltorio #Contenidojuegos nav{
+    flex-basis: 20%;    
+    box-sizing: border-box;
+    padding-left: 90px;
+    padding-top: 5%;
+    color: #E5E7EB;
+    list-style: none;
+    background-color: #0c1222;
+}
+#Envoltorio #Contenidojuegos nav li{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 140px;
+    font-size: 15pt;
+}
+#envoltorio #Contenidojuegos main{
+    flex: 1 1 60%; 
+    padding: 20px 3%;
+}
+
+.games-wrapper {
+  display: flex;       
+  flex-wrap: wrap;     
+  gap: 30px;           
+  justify-content: center; 
+}
+.game-item {
+  flex: 0 0 25%; 
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  justify-content: center;
+}
+
+
+.game-item img {
+  width: 100%;        
+  height: auto;       
+  border-radius: 4px;
+}
+
+
+.game-title {
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+#Envoltorio #Contenidojuegos aside{
+    box-sizing: border-box;
+    flex: 1 1 140%;
+    color: white;
+    background-color: #0C1224;
+    text-align: center;
+}
+#Envoltorio #Contenidojuegos aside .anuncio1 img{
+    width: 90%;
+}
+
+#Envoltorio footer{
+    display: flex;
+    color: white;
+    background-color: #050710;
+    justify-content: space-between;
+    padding: 20px 3%;
+      }
+#Envoltorio footer a, #Envoltorio footer a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*-----------------------------------------------*/
+#Envoltorio #ContenidoIndice main{
+    box-sizing: border-box;
+    flex: 1 1 70%; 
+    padding: 20px 3%;
+    background-color: #070B17;
+}
+#Envoltorio #ContenidoIndice aside{
+    box-sizing: border-box;
+    flex: 1 1 20%;
+    color: white;
+    background-color: #0C1224;
+    text-align: center;
+}
+
+#Envoltorio #ContenidoIndice aside .anuncio1 img{
+    width: 60%;
+    margin-top: 10%;
+}
+#Envoltorio #ContenidoIndice aside .anuncio1 p{
+    margin-bottom: 10%;
+}
+#Envoltorio #ContenidoIndice{
+    display: flex;
+}
+
+#Envoltorio #ContenidoIndice main p{
+    text-align: center;
+    font-size: 30pt;
+    color: #E5E7EB;
+}
+#Envoltorio #ContenidoIndice main a{
+    font-size: 30pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #5c08b5;
+    margin-top: 10%;
+}
+#Envoltorio #ContenidoIndice main img{
+    margin-left: 300px; 
+    width: 50%;
+
+}

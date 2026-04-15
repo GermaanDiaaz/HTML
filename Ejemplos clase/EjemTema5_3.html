@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        nav>ul{
+            list-style-type: none;
+            padding-left: 0px;
+            display: flex;
+        }
+
+        nav>ul>li>ul{
+            list-style-type: none;
+            padding-left: 0%;
+            overflow: hidden;
+
+            visibility: hidden;
+            height: 0px;
+            transition: height 1s;
+        }
+        nav li{
+            border: solid red 1px;
+        }
+        
+        nav>ul>li:hover>ul{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Opcion 1
+                <ul>
+                    <li>Opcion 1.1</li>
+                    <li>Opcion 1.2</li>
+                    <li>Opcion 1.3</li>
+                </ul>
+            </li>
+            <li>Opcion 2
+                <ul>
+                    <li>Opcion 2.1</li>
+                    <li>Opcion 2.2</li>
+                    <li>Opcion 2.3</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, labore totam dignissimos soluta aliquam voluptatem in sapiente!
+             Distinctio asperiores ipsa itaque inventore ratione accusamus reprehenderit adipisci animi quaerat, odio atque!</p>
+    </main>
+</body>
+</html>

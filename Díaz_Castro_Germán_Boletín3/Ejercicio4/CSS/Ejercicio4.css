@@ -1,0 +1,22 @@
+body{
+    background-color:peru;
+    text-align: center;
+    color: khaki;
+    font-size: 15pt;
+    line-height: 5pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.titulo{
+    font-size: 50pt;
+    text-align: center;
+    color: brown;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:underline;
+}
+
+.subtitulo{
+    font-size: 35pt;
+    color: rgb(239, 171, 61);
+    font-family:'Times New Roman', Times, serif;
+
+}
