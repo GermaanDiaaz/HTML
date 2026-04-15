@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+
+    <style>
+        table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+        background-color: #fdf6e9; 
+        }
+
+        caption {
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 0;
+        color: #000;
+        }
+
+        th {
+        border-top: 1px solid #e0d0b0;
+        border-bottom: 1px solid #e0d0b0;
+        padding: 12px 8px;
+        text-align: left;
+        color: #666;
+        font-weight: normal;
+        }
+
+        td {
+        padding: 10px 8px;
+        border-bottom: 1px solid #eee;
+        color: #333;
+        }
+
+        tbody tr:nth-child(1) td:nth-child(3),
+        tbody tr:nth-child(1) td:nth-child(4),
+        tbody tr:nth-child(2) td:nth-child(3),
+        tbody tr:nth-child(2) td:nth-child(4) {
+            color: green;
+        }
+
+        tbody tr:nth-child(3) td:nth-child(3),
+        tbody tr:nth-child(3) td:nth-child(4),
+        tbody tr:nth-child(4) td:nth-child(3),
+        tbody tr:nth-child(4) td:nth-child(4),
+        tbody tr:nth-child(5) td:nth-child(3),
+        tbody tr:nth-child(5) td:nth-child(4) {
+            color: red;
+        }
+        tr:hover {
+        background-color: #f5e8cf;
+
+        }
+        td:hover {
+        background-color: #e9d5b0; 
+        color: #000;
+        font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Índices</caption>
+        <thead>
+            <tr>
+                <th>Índice</th>
+                <th>Último</th>
+                <th>Var. %</th>
+                <th>Var.</th>
+                <th>Máx.</th>
+                <th>Mín.</th>
+                <th>Volumen</th>
+                <th>Capital</th>
+                <th>Hora</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>IBEX35</strong></td>
+                <td>9.266,6</td>
+                <td style="color: green;">+0,43</td>
+                <td style="color: green;">+39,30</td>
+                <td>9.286,2</td>
+                <td>9.260,2</td>
+                <td></td>
+                <td>604.741</td>
+                <td>09:19</td>
+            </tr>
+            <tr>
+                <td><strong>DAX 30</strong></td>
+                <td>7.885,17</td>
+                <td>+0,26</td>
+                <td>+20,46</td>
+                <td>7.934,3</td>
+                <td>7.864,66</td>
+                <td></td>
+                <td></td>
+                <td>08/02</td>
+            </tr>
+            <tr>
+                <td><strong>Nikkei 225</strong></td>
+                <td>7.119,83</td>
+                <td>-0,18</td>
+                <td">-12,52</td>
+                <td>7.190,86</td>
+                <td>7.119,83</td>
+                <td></td>
+                <td>2.322.652</td>
+                <td>08/02</td>
+            </tr>
+            <tr>
+                <td><strong>Dow Jones</strong></td>
+                <td>7.119,83</td>
+                <td>-0,18</td>
+                <td>-12,52</td>
+                <td>7.190,86</td>
+                <td>7.119,83</td>
+                <td></td>
+                <td>2.322.652</td>
+                <td>08/02</td>
+            </tr>
+            <tr>
+                <td><strong>Nasdaq</strong></td>
+                <td>7.119,83</td>
+                <td>-0,18</td>
+                <td>-12,52</td>
+                <td>7.190,86</td>
+                <td>7.119,83</td>
+                <td></td>
+                <td>2.322.652</td>
+                <td>08/02</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
