@@ -23,6 +23,9 @@
         header img{
             width: 15%;
         }
+        textarea {
+            resize: none;
+        }
     </style>
 
 </head>
@@ -42,13 +45,13 @@
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="Index.html">Inicio</a>
+                            <a class="nav-link" href="Index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Carta.html">Carta</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Reserva.html">Reservar</a>
+                            <a class="nav-link active" href="Reserva.html">Reservar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Nosotros.html">Nosotros</a>
@@ -113,17 +116,60 @@
         </div>
     </div>
     
-    <main class="container my-5">
-        <div class="p-5 mb-4 bg-light bg-opacity-75 rounded-3 shadow">
-            <div class="container-fluid py-5 text-center">
-                <h1 class="display-5 fw-bold">Mejor Chiringuito de la Costa Tropical</h1>
-                <p class="col-md-8 fs-4 mx-auto">Disfruta de la mejor gastronomía al mejor precio.</p>
-                <a href="Carta.html">
-                    <button class="btn btn-primary btn-lg mt-5" type="button">Ver Carta</button>
-                </a>
-            </div>
+    <div class="container my-5"> <!-- Contenido -->
+        <div class="bg-light p-5 rounded-5">
+            
+            <h2 class="text-center mb-4 fw-bold text-dark">Reserva tu Mesa</h2>
+            <p class="text-center mb-5">Rellena los datos para asegurar tu sitio con nosotros.</p>
+
+            <form>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <label for="reservaNombre" class="form-label fw-bold">Nombre completo <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control rounded-pill border-0 shadow-sm" id="reservaNombre" placeholder="Tu nombre..." required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="reservaTel" class="form-label fw-bold">Teléfono <span class="text-danger">*</span></label>
+                        <input type="tel" class="form-control rounded-pill border-0 shadow-sm" id="reservaTel" placeholder="600 000 000" required>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="reservaFecha" class="form-label fw-bold">Fecha <span class="text-danger">*</span></label>
+                        <input type="date" class="form-control rounded-pill border-0 shadow-sm" id="reservaFecha" required>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="reservaHora" class="form-label fw-bold">Hora <span class="text-danger">*</span></label>
+                        <select class="form-select rounded-pill border-0 shadow-sm" id="reservaHora" required>
+                            <option selected disabled value="">Elegir...</option>
+                            <option>13:00</option>
+                            <option>13:30</option>
+                            <option>14:00</option>
+                            <option>14:30</option>
+                            <option>15:00</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="reservaPersonas" class="form-label fw-bold">Comensales <span class="text-danger">*</span></label>
+                        <input type="number" class="form-control rounded-pill border-0 shadow-sm" id="reservaPersonas" min="1" max="20" placeholder="¿Cuántos?" required>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="reservaNotas" class="form-label fw-bold">Observaciones</label>
+                        <textarea class="form-control rounded-4 border-0 shadow-sm" id="reservaNotas" rows="3" placeholder="Cuéntanos si tienes alguna alergia o preferencia..."></textarea>
+                    </div>
+
+                    <div class="col-12 text-center mt-5">
+                        <button type="submit" class="btn btn-success btn-lg px-5 rounded-pill shadow">
+                            Confirmar Reserva
+                        </button>
+                    </div>
+                </div>
+            </form>
         </div>
-    </main>
+    </div>
 
     <footer class="bg-dark text-white pt-2 pb-4 mt-auto">
         <div class="container text-center text-md-start">
